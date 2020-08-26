@@ -1,0 +1,46 @@
+*{margin: 0; padding: 0;}
+.wrapper{
+	width: 800px;
+	margin: left;
+	
+}
+.content{
+	float: top;
+	width: 500px;
+	
+}
+.sidebar{
+	float: left;
+	width: 30px;
+	
+}
+.sidebar2{
+	float: left;
+	width: 150px;
+	
+}
+.sidebar3{
+	float: left;
+	width: 80px;
+	
+}
+.sidebar4{
+	float: left;
+	width: 250px;
+	
+}
+.sidebar5{
+	float: left;
+	width: 120px;
+	
+}
+.sidebar6{
+	float: left;
+	width: 120px;
+	
+}
+.page_navigation{
+	float: right;
+	width: 500px;
+	
+}
