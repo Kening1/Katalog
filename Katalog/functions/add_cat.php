@@ -19,7 +19,7 @@ include "config.php";
             $att3=$_POST['att3'];
             $result = pg_query("SELECT id_cat FROM Public.cat ORDER BY id_cat DESC LIMIT 1");
             $posts = pg_fetch_assoc($result);
-            $posts= intval($posts['count'])+1;
+            $posts= intval($posts['id_cat'])+1;
             $query="INSERT INTO Public.cat (name_cat,id_cat,attcat_1,attcat_2,attcat_3) 
                     VALUES ('$category','$posts','$att1','$att2','$att3')";
             if (pg_query($connect,$query))
